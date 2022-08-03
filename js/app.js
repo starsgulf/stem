@@ -1,0 +1,58 @@
+$(document).ready(function(){
+//Hero Slider
+$('.owl-nav').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,
+    items:1,
+    dots:false,
+    smartSpeed:1000,
+    navText:['السابق','التالى'],
+    responsive:{
+        0:{
+          nav:false
+        },
+        768:{
+          nav:true
+        }       
+    }
+});
+$('.owl-project').owlCarousel({
+    loop:true,
+    margin:0,
+    nav:true,    
+    dots:false,
+    smartSpeed:1000,   
+    margin:24,
+    navText:["PREV","NEXT"],
+    responsive:{
+        0:{
+            items:1,
+            nav:false
+        },
+        768:{
+            items:2,
+        },
+        1140:{
+         items:3,
+         center:true
+        }      
+    }
+});
+$('.owl-Img').owlCarousel({
+    items:3,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true,
+    responsive:{
+        0:{
+         items:1
+        },
+        768:{
+         
+        }       
+    }
+});
+});
