@@ -1,9 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!doctype html>
+<html lang="ar">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" >
+    <link href="/css/boxicons.min.css" rel="stylesheet" >
+    <link href="/css/owl.carousel.min.css" rel="stylesheet" >
+    <link href="/css/owl.theme.default.min.css" rel="stylesheet" >
+    <link href="/css/style.css" rel="stylesheet" >
+    <title>نجوم الخليج</title>
     <meta name="keywords" content="  
     الدرع الوطنى ,
     الوطنى لغسيل السيارات ,
@@ -48,234 +55,414 @@
 غسيل بخار متنقل ,
 غسيل بخار سيارات 
 ">
-    <title>الدرع الوطنى</title>
-    <!--===============FAVICON===============-->
-    <link rel="shortcut icon" href="Uploads/n001.jpeg" />
-    <!--============REMIX iCONS=================-->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <!--============  SWIPER CSS =================-->
-    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
-    <!--============CSS=================-->
-    <link rel="stylesheet" href="css/site.css" />
-    <style>
-        .fon30 {
-            font-size: 30px !important;
-            color: #fff !important
-        }
-
-        .ri-star-fill {
-            color: #ffe500 !important;
-        }
-
-        .featured__img:hover {
-            transform: scale(2) !important;
-        }
-
-        .featured__img:active {
-            transform: scale(2) !important;
-        }
-    </style>   
-</head>
-<body>
-    <!--===========      HEADER     ==============-->
-    <header class="header" id="header">
-        <nav class="nav container">
-            <a href="#" class="nav__logo">
-                <i class="ri-steering-line"></i>
-              الدرع الوطنى
-            </a>
-            <div class="nav__menu" id="nav-menu">
-                <ul class="nav__list">
-                    <li class="nav__item">
-                        <a href="#home" class="nav__link active-link">الرئيسية</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#about" class="nav__link">من نحن</a>
-                    </li>
-                    <li class="nav__item">
-                        <a href="#featured" class="nav__link">معرض الصور</a>
-                    </li>
-                </ul>
-                <div class="nav__close" id="nav-close">
-                    <i class="ri-close-line"></i>
+  </head>
+  <body>
+    <!-- Top Nav-->
+    <nav class="top-nav">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-auto">
+                  <!--
+                    <p>
+                        <i class='bx bxs-envelope'></i>
+                        <span>man2020duh@gmail.com</span>
+                    </p>
+                  -->                 
+                    <p>
+                     امانة - ثقة - اتقان
+                    </p>                  
+                    <p>
+                        <i class='bx bxs-phone-call'></i>
+                        <span>(+966)0580144148</span>
+                    </p>
                 </div>
-            </div>
-            <!--Toggle button -->
-            <div class="nav__toggle" id="nav-toggle">
-                <i class="ri-menu-line"></i>
-            </div>
-        </nav>
-    </header>
-    <!--==========      MAIN   =====================-->
-    <main class="main">
-        <!--==============   HOME   ================-->
-        <section class="home section" id="home">
-            <div class="shape shape__big"></div>
-            <div class="shape shape__small"></div>
-            <div class="home__container container grid">
-                <div class="home__data">
-                    <h1 class="home__title" style="font-family: 'Jomhuria', cursive; font-weight: 500; font-size: 30px; ">
-                       الدرع الوطنى  
-                    </h1>
-                    <h2 class="home_subtitle">
-                        <i class="ri-star-fill"></i>
-                        <i class="ri-star-fill"></i>
-                        <i class="ri-star-fill"></i>
-                        <i class="ri-star-fill"></i>
-                        <i class="ri-star-fill"></i>
-                    </h2>
-                    <h2 style="margin-bottom:20px ;">غسيل سيارات بالبخار</h2>
-                    <h2 style="margin-bottom:20px ;">بأيدى عربية مدربة على أعلى مستوى</h2>
-                        <p  class="home__elec"  style="font-weight: 500; font-size: 22px;">0565716046</p>
-                </div>
-             
-                <img src="Uploads/n001.jpeg" class="home__img" />
-                <div class="home__car">
-                    <!-- Insert a real number plus country code -->                  
-                    <a href="https://wa.me/+9660565716046" target="_blank" class="round-btn ">
-                        <div class="home__car-data">
-                            <div class="home__car-icon fon30">
-                                <i class="ri-whatsapp-fill"></i>
-                            </div>
-                            <h2 class="home__car-number">whatsapp</h2>
-                        </div>
-                    </a>
-                    <a onclick="return gtag_report_conversion('tel:0565716046);" href="tel:0565716046">
-                        <div class="home__car-data">
-                            <div class="home__car-icon fon30">
-                                <i class="ri-phone-fill"></i>
-                            </div>
-                            <h2 class="home__car-number">phone</h2>
-                        </div>
-                    </a>
-                    <!--<div class="home__car-data">
-        <div class="home__car-icon">
-            <i class="ri-police-car-fill"></i>
-        </div>
-        <h2 class="home__car-number">أسرع"</h2>
-    </div>-->
-                </div>
-                <a onclick="return gtag_report_conversion('tel:0565716046');" href="tel:0565716046"
-                   class="home__button" style="font-size:17px; font-weight:bold">
-                    اطلب الان
-                </a>
-            </div>
-        </section>
-        <!--==============   About   ================-->
-        <section class="about section" id="about">
-            <div class="about__container container grid">
-                <div class="about_group">
-                    <img src="Uploads/a001.jpeg" class="about__img" />
-                    <div class="about__card">
-                        <h3 class="about__card-title" style="color:#fff ;">متميزون</h3>
-                        <p class="about__card-description">
-                            خدمة 24 ساعة
-                        </p>
+                <div class="col-auto">
+                    <div class="social-links">
+                      <a href="https://www.youtube.com/channel/UCgCeLII4UVYvuQHcPoxj5Pg" ><i class='bx bxl-youtube' ></i></a>
+                      <a href="https://wa.me/+9660580144148" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
                     </div>
                 </div>
-                <div class="about__data">
-                    <h2 class="section__title about__title" style="width:100%; text-align:right" >
-                        من نحن
-                    </h2>
-                    <p class="about__description " style="text-align:right">
-                        هناك عدة أسباب تؤهل الشركة كي تكون أفضل شركة غسيل سيارات بالبخار بالرياض يمكن الاستعانة بها للقيام بكافة أعمال غسيل السيارات بمختلف احجامها وأنواعه ومن هذه الأسباب امتلاك الشركة الأمور الآتية:
-                        العمالة المدرية: تهتم شركة رش سريع كثيرًا بالموظفين والعاملين لديها بدايةً بموظفين خدمة العملاء، ونهايةً بموظفي وعمال التنظيف، حيث اللباقة في الحديث وحسن معاملة العميل والسعي لإرضائه، هذا بجانب التخصصية في العمل والخبرات التي تصل لسنوات كثيرة من العمل الجاد، والسعي الدائم للإلمام بما هو جديد في مجال غسيل السيارات
-   
-                        <h1>امانة - ثقة - اتقان</h1>
-                    </p>
-                    <a onclick="return gtag_report_conversion('tel:0565716046');" href="tel:0565716046" class="button">
-                        اطلب الان
-                    </a>
-                </div>
             </div>
-        </section>
-        <!--==============   FEATURED   ================-->
-        <section class="featured section" id="featured">
-            <h2 class="section__title">
-                معرض الصور
-            </h2>
-            <div class="featured__container container">
-                <div class="featured__content grid">
 
-                    <article class="featured__card mix testa">
-                        <div class="shape shape__smaller"></div>
-                        <img src="Uploads/a001.jpeg" class="featured__img" />
-                    </article>
+        </div>
 
-                    <article class="featured__card mix testa">
-                        <div class="shape shape__smaller"></div>
-                        <img src="Uploads/a002.jpeg" class="featured__img" />
-                    </article>
-
-                    <article class="featured__card mix testa">
-                        <div class="shape shape__smaller"></div>
-                        <img src="Uploads/a003.jpeg" class="featured__img" />
-                    </article>
-
-                    <article class="featured__card mix testa">
-                        <div class="shape shape__smaller"></div>
-                        <img src="Uploads/a004.jpeg" class="featured__img" />
-                    </article>
-
-                    <article class="featured__card mix testa">
-                        <div class="shape shape__smaller"></div>
-                        <img src="Uploads/n001.jpeg" class="featured__img" />
-                    </article>
-
-                    <article class="featured__card mix testa">
-                        <div class="shape shape__smaller"></div>
-                        <img src="Uploads/n002.jpeg" class="featured__img" />
-                    </article>
-                    <article class="featured__card mix testa">
-                        <div class="shape shape__smaller"></div>
-                        <img src="Uploads/n003.jpeg" class="featured__img" />
-                    </article>
-                    <article class="featured__card mix testa">
-                        <div class="shape shape__smaller"></div>
-                        <img src="Uploads/n004.jpeg" class="featured__img" />
-                    </article>
-                    <article class="featured__card mix testa">
-                        <div class="shape shape__smaller"></div>
-                        <img src="Uploads/n005.jpeg" class="featured__img" />
-                    </article>
+    </nav>
+    <!-- Top Nav End -->
+   <!--   Navbar-->
+   <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">نجوم الخليج<span>.</span></a>
+      <a href="tel:0542096323"  class="btn btn-brand ms-lg-1" >     
+      <i class='bx bxs-phone-call' style="font-size: 22px;"></i>
+      0580144148
+    </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto" dir="rtl">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#Home">الرئيسية</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">خدماتنا</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#setImge">قبل وبعد</a>
+          </li>   
+          <li class="nav-item">
+            <a class="nav-link" href="#secVideo">فيديو</a>
+          </li>    
+          <li class="nav-item">
+            <a class="nav-link" href="#polishing">خدمة التلميع</a>
+          </li>     
+          <li class="nav-item">
+            <a class="nav-link" href="#About">من نحن</a>
+          </li>    
+        </ul>        
+      </div>     
+    </div>
+  </nav>
+   <!--  Navbar End-->
+   <!-- Slider-->
+   <div id="Home" class="slider-wrapper owl-carousel-owl-theme owl-carousel owl-nav">
+    <div class="slide1 min-vh-100 bg-cover d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <h5 class="text-uppercase text-white">متخصصون فى غسيل السيارات بالرياض</h5>
+                    <h3 class="display-2 my-3 subItm">امانة - تقة - اتقان</h3>
+                    <h1 class="display-2 my-3 text-white">نجوم الخليج </h1>
                 </div>
-            </div>
-        </section>
-    </main>
-    <!--==========       FOOTER   =======================-->
-    <footer class="footer section">
-        <div class="shape shadow-lg"></div>
-        <div class="shape shape__small"></div>
-        <div class="footer__container container grid">
-            <div class="footer__content">
-                <a href="#" class="footer__logo">
-                    <i class="ri-steering-line"></i>الدرع الوطنى 
-                </a>
-                <p class="footer__description">
-                    غسيل سيارات  بالبخار
-                </p>
             </div>
         </div>
-        <span class="footer__copy">
-            <div class="col-lg-8 col-md-7 col-12 px-5 mb-5">                   
+    </div>
+   </div>
+<!-- Slider  End-->
 
-                Copyright 2022 <a  href="https://wa.me/+201065569643" target="_blank">
-                    المندوه                        
-                 </a>  Company. All rights reserved .
-            </div> 
-        </span>
-    </footer>
-    <!--============  SCROLL  UP =================-->
-    <a href="#" class="scrollup" id="scroll-up">
-        <i class="ri-arrow-up-line"></i>
-    </a>
-    <!--============  SCROLL REVEAL JS =================-->
-    <script src="js/scrollreveal.min.js"></script>
-    <!--============  SWIPER JS =================-->
-    <script src="js/swiper-bundle.min.js"></script>
-    <!--============  MIXIUP JS =================-->
-    <script src="js/mixitup.min.js"></script>
-    <!--============MAIN JS =================-->
-    <script src="js/JS_CarDesign.js"></script>   
-</body>
+<!--setImge -->
+<section id="setImge" class="bg-light" id="setImge">
+  <div class="container">
+  <div class="row">
+    <div class="col-12 intro text-center">
+      <h1>أعمالنا قبل وبعد</h1>    
+    </div>
+  </div>
+<div id="projects" class="owl-theme owl-carousel owl-Img">
+<div class="project">
+  <img src="/Uploads/a001.jpeg">
+</div>
+<div class="project">
+  <img src="/Uploads/a002.jpeg">
+</div>
+<div class="project">
+  <img src="/Uploads/a003.jpeg">
+</div>
+<div class="project">
+  <img src="/Uploads/a004.jpeg">
+</div>
+<div class="project">
+  <img src="/Uploads/a005.jpeg">
+</div>
+</div>
+  </div>
+</section>
+<!--secVideo  End-->
+
+
+<!--secVideo -->
+<section class="bg-light" id="secVideo">
+  <div class="container">
+  <div class="row">
+    <div class="col-12 intro text-center">
+      <h1>أعمالنا فيديو</h1>    
+    </div>
+  </div>
+<div id="projects" class="owl-theme owl-carousel owl-project">
+<div class="project">
+  <img src="/Uploads/img002.jpg">
+  <div class="overlay"></div>
+ <div class="contant">
+  <iframe                      
+  src="https://www.youtube.com/embed/W8zshjp6WmM"
+  style="width:100% ; height:250px"								
+                          allow="accelerometer;
+                  autoplay; clipboard-write;
+                  encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+  </iframe> 
+ </div>
+</div>
+<div class="project">
+  <img src="/Uploads/img002.jpg">
+  <div class="overlay"></div>
+  <div class="contant p-0" >  
+   <iframe                      
+   src="https://www.youtube.com/embed/zni8Q-308R0"
+   style="width:100% ; height:250px"										
+                           allow="accelerometer;
+                   autoplay; clipboard-write;
+                   encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+   </iframe> 
+  </div>
+ </div>
+ <div class="project">
+  <img src="/Uploads/img002.jpg">
+  <div class="overlay"></div>
+  <div class="contant">
+    <iframe                      
+    src="https://www.youtube.com/embed/zni8Q-308R0"
+    style="width:100% ; height:250px"								
+                            allow="accelerometer;
+                    autoplay; clipboard-write;
+                    encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>  
+  </div>
+ </div>
+</div>
+  </div>
+</section>
+<!--secVideo  End-->
+<!--Services -->
+<section id="services">
+  <div class="container">
+  <div class="row">
+    <div class="col-12 intro text-center">
+      <h6> خدماتنا </h6>
+      <h1>غسيل سيارات متنقل </h1>
+      <p>نقدم خدمة التلميع بالبخار الاكثر تطور وين ما تكون بتحصل على خدمة احترافية
+        نهتم بأدق التفاصيل في سيارتك، ونستخدم أفضل الأدوات والمواد الأصلية
+      </p>
+    </div>
+  </div>
+  <div class="row ">
+    <div class="col-lg-4 col-sm-6 ">
+      <div class="service-box ">
+        <div class="serviceImg ">
+          <img src="/Uploads/n003.jpeg">
+        </div>      
+        <h5>افضل غسيل يخار</h5>
+        <p>
+          افضل شركة غسيل سيارات بالبخار من الداخل والخارج
+          بأفضل الاسعار مع ازالة البقع المستعصيه .
+          اتصل نصلك اينما كنت واحصل على خصم 25% عند الاتصال الان
+        </p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 ">
+      <div class="service-box ">
+        <div class="serviceImg ">
+          <img src="/Uploads/n005.jpeg">
+        </div>      
+        <h5> تنظيف مراتب السيارة </h5>
+        <p>
+          خدمة تنظيف مراتب السيارة من البقع والاوساخ تنظيف السيارات عند البيت تلميع سيارت داخلى
+          افضل شركة تنظيف سيارات بالبخار متنقلة حدد موقعلك ونصل فى اسرع وقت
+        </p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 ">
+      <div class="service-box ">
+        <div class="serviceImg ">
+          <img src="/Uploads/n002.jpeg">
+        </div>      
+        <h5>غسيل سيارات امام المنزل </h5>
+        <p>
+          غسيل سيارات متنقل بالرياض خدمة تنظيف امام المنزل والتنظيف بالبخار وتنظيف مراتب السيارات
+          اسعار تناسب جميع السيارات
+        </p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 ">
+      <div class="service-box ">
+        <div class="serviceImg ">
+          <img src="/Uploads/n001.jpeg">
+        </div>      
+        <h5>غسيل سيارات بالبخار بالرياض</h5>
+        <p>
+          والذي ساعدها في أن تصل لما وصلت إليه هو مجموعة المحترفين والخبراء. الذين يعملون بشركة تنظيف بالبخار
+           قد تم الاستعانة بهم من الخارج، من أجل الحصول على أفضل طرق يمكن من خلالها القيام بعملية غسيل السيارات.
+        </p>
+      </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 ">
+      <div class="service-box ">
+        <div class="serviceImg ">
+          <img src="/Uploads/img_002.png">
+        </div>      
+        <h5>اتصل نصلك اينما كنت </h5>
+        <p>
+          افضل شركة غسيل سيارات بالبخار من الداخل والخارج
+          بأفضل الاسعار مع ازالة البقع المستعصيه .
+          اتصل نصلك اينما كنت واحصل على خصم 25% عند الاتصال الان
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+<!--Services  End-->
+<!-- polishing  موضوعات التلميع-->
+<section id="polishing">
+<div class="container m-1"> 
+  <div class="row align-items-center justify-content-center">
+    <div class="col-lg-5">
+      <div class="row">
+        <div class="col-12 info-box">
+          <div class="info-img">
+          <img src="/Uploads/a001.jpeg">
+        </div>
+        <div class="info-text">
+               <h5>تلميع سيارات متنقل </h5>
+               <p>
+                تلميع داخلة وغسيل بخار بأفضل جودة فى السوق السعودى وبأيدى عربية ومدربة  
+                        التفاصيل لعبتنا نهتم فى أدق تفاصيل      
+               </p>
+             </div>
+      </div>
+      <div class="col-12 info-box">
+        <div class="info-img">
+        <img src="/Uploads/a002.jpeg">
+      </div>
+      <div class="info-text">
+             <h5>تنظيف السيارة من الداخل</h5>
+             <p>
+              سيارتك بتصير احلي مع نجوم الخليخ افضل شركة غسيل متنقل بالرياضنستخدم أجهزة متخصصة فى غسيل السيارة بالبخار نحافظ على هيكل السيارة وصلائها    
+             </p>
+           </div>
+    </div>
+    <div class="col-12 info-box">
+      <div class="info-img">
+      <img src="/Uploads/a003.jpeg">
+    </div>
+    <div class="info-text">
+           <h5> التلميع بالبخار الأكثر تطور</h5>
+           <p>
+            نقدم خدمة التلميع بالبخار الأكثر تطور وين ما تكون بتحصل على خدمة احترافية 
+نهتم بأدق التفاصيل فى سيارتك ونستخدم أفضل الأدوات والمواد الاصيلة 
+          </p>
+         </div>
+  </div>
+      </div>     
+    </div>
+    <div class="col-lg-5 AboutImg">
+      <img  src="/Uploads/img_002.png">
+    </div>
+  </div>
+</div>
+</section>
+<!-- polishing End-->
+<!--Milestone
+<section id="milestone" class="bg-cover" 
+style=" background:linear-gradient(rgba(255, 77, 41, 0.8),rgba(255, 77, 41, 0.8)), url(../Uploads/img001.jpg)">
+  <div class="container">
+    <div class="row gy-4 text-center justify-content-center">
+      <div class="col-lg-3 col-sm-6 ">
+        <div class="display-4">250 ر.س</div>
+        <p class="mb-0">سيارات صغيرة </p>
+      </div>
+      <div class="col-lg-3 col-sm-6 ">
+        <div class="display-4">350 ر.س</div>
+        <p class="mb-0">سيارة متوسيط </p>
+      </div>
+      <div class="col-lg-3  col-sm-6">
+        <div class="display-4">450 ر.س</div>
+        <p class="mb-0"> سيارات كبيرة</p>
+      </div>
+    </div>
+  </div>
+</section>-->
+<!--Milestone  End-->
+<!--Projects -->
+<section class="bg-light" id="About">
+  <div class="container">
+  <div class="row">
+    <div class="col-12 intro text-center">
+      <h1> من نحن </h1> 
+      <p>
+        هناك عدة أسباب تؤهل الشركة كي تكون أفضل شركة غسيل سيارات بالبخار بالرياض يمكن الاستعانة بها للقيام بكافة أعمال غسيل السيارات بمختلف احجامها وأنواعه ومن هذه الأسباب امتلاك الشركة الأمور الآتية: العمالة المدرية: تهتم شركة نجوم الخليج كثيرًا بالموظفين والعاملين لديها بدايةً بموظفين خدمة العملاء، ونهايةً بموظفي وعمال التنظيف، حيث اللباقة في الحديث وحسن معاملة العميل والسعي لإرضائه، هذا بجانب التخصصية في العمل والخبرات التي تصل لسنوات كثيرة من العمل الجاد، والسعي الدائم للإلمام بما هو جديد في مجال غسيل السيارات
+      </p>
+    </div>
+  </div>
+  </div>
+</section>
+<!--project  End-->
+<!--footer  -->
+<footer>
+  <div class="footer-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 mx-auto">
+          <a href="#" class="navbar-brand">نجوم الخليج<span>.</span></a>
+          <p>
+            الشركة الأولى بالرياض لتنظيف و تلميع السيارات بالبخار بأحدث التقنيات لكل الأجزاء السيارة. تنظيف مقاعد السيارة البخار بالرياض والتي تستخدم أحدث المعدات والأدوات في...  
+          </p>    
+          <div class="social-links">
+            <a href="https://www.youtube.com/channel/UCgCeLII4UVYvuQHcPoxj5Pg" ><i class='bx bxl-youtube' ></i></a>
+            <a href="https://wa.me/+9660580144148" target="_blank"><i class='bx bxl-whatsapp' ></i></a>
+        </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+   <div class="container">
+    <p class=" mb-0">  Copyright 2022 <a class="button" href="https://wa.me/+201065569643" target="_blank">
+      المندوه                        
+   </a>  Company.</p>
+   </div>
+  </div>
+</footer>
+
+<!-- Modal
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">     
+      <div class="modal-body p-0">
+       <div class="container-fluid">
+        <div  class="row">
+        <div class="col-lg-4 bg-cover" style="background-image:url(/Uploads/c2.jpg) ; min-height:300px"></div>
+        <div class="col-lg-8 ">
+          <form action="" class="row p-lg-5 gy-3">
+            <div class="col-12">
+              <h1>Get In touch</h1>
+              <p>إذا كانت لديك آراء أو ملاحظات على الخدمة أو مقترحات للتطوير أو شكاوى تتعلق بخدماتنا،
+                فلا تتردد بإرسالها مباشرة ولضمان سرعة التعامل مع ملاحظتك أو طلبك,
+                يرجى كتابة شرح تفصيلي لكي تتسنى لنا خدمتك.
+              </p>
+            </div>         
+            <div class="col-6">
+              <label for="Name" class="form-label">First Name</label>
+              <input  type="text" class="form-control" id="Name" name="Name" placeholder="Elmanduh Mahmod">
+            </div>
+            <div class="col-6">
+              <label for="mobil" class="form-label">Mobil</label>
+              <input  type="number" class="form-control" id="mobil" name="mobil" placeholder="..50">
+            </div>            
+            <div class="col-12">
+              <label for="email" class="form-label">Email</label>
+              <input  type="email" class="form-control" id="email" name="email" placeholder="man2020duh@gmail.com">
+            </div>
+            <div class="col-12">
+              <label for="message" class="form-label">Message</label>
+              <textarea  rows="4" class="form-control" id="message" name="message" placeholder="wow , you guys are amasinge"></textarea>
+            </div>
+            <div class="col-12">
+              <button type="button" class="btn btn-brand" >Send Message</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </form>  
+        </div>
+        </div>
+       </div>
+      </div>     
+    </div>
+  </div>
+   -->
+</div>
+    <script src="/js/jquery.min.js" ></script>   
+    <script src="/js/bootstrap.bundle.min.js" ></script>
+    <script src="/js/owl.carousel.min.js" ></script>
+    <script src="/js/app.js" ></script>   
+  </body>
 </html>
